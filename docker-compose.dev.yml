@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  nginx:
+    environment:
+      - VIRTUAL_HOST=dylan.simowitz.test,www.dylan.simowitz.test
+    restart: on-failure

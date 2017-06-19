@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+  nginx:
+    image: nginx:alpine
+    environment:
+      - VIRTUAL_HOST=dylan.simowitz.com,www.dylan.simowitz.com
+      - LETSENCRYPT_HOST=dylan.simowitz.com,www.dylan.simowitz.com
+      - LETSENCRYPT_EMAIL=dsimowitz@gmail.com
+    restart: always
+    volumes:
+      - ./src/:/usr/share/nginx/html/
+    expose:
+      - 80
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
