@@ -10,8 +10,32 @@ services:
     restart: always
     volumes:
       - ./src/:/usr/share/nginx/html/
+      - ./default.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - ghost
     expose:
       - 80
+
+  # ghost:
+  #   image: node:alpine
+  #   restart: always
+  #   volumes:
+  #     - ./blog/:/usr/src/app/
+  #     - content:/usr/src/app/content/
+  #   environment:
+  #     - PORT=2368
+  #   env_file:
+  #     - ./blog/ghost.env
+  #   expose:
+  #     - 2368
+
+  ghost:
+    image: ghost:alpine
+    restart: always
+    env_file:
+      - ./blog/ghost.env
+    volumes:
+      - ./blog/content/:/var/lib/ghost/
 
 networks:
   default:

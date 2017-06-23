@@ -5,3 +5,11 @@ services:
     environment:
       - VIRTUAL_HOST=dylan.simowitz.test,www.dylan.simowitz.test
     restart: on-failure
+
+  ghost:
+    restart: on-failure
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
