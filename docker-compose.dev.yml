@@ -12,4 +12,5 @@ services:
       - url=http://dylan.simowitz.test/blog/
     restart: on-failure
     volumes:
+      - ./blog/data/:/var/lib/ghost/content/data/
       - ./blog/config.development.json:/var/lib/ghost/config.development.json:ro

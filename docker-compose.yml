@@ -25,6 +25,7 @@ services:
     env_file:
       - ./blog/ghost.env
     volumes:
+      - ./blog/data/:/var/lib/ghost/content/data/
       - ./blog/config.production.json:/var/lib/ghost/config.production.json:ro
     expose:
       - 2368

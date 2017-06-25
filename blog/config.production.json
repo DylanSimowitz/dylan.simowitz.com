@@ -5,6 +5,9 @@
           "service": "SES"
       }
   },
+  "storage": {
+    "active": "s3"
+  },
   "server": {
     "host": "0.0.0.0"
   },
