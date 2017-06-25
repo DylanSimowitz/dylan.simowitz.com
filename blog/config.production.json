@@ -1,0 +1,34 @@
+{
+  "mail": {
+      "transport": "SMTP",
+      "options": {
+          "service": "SES"
+      }
+  },
+  "server": {
+    "host": "0.0.0.0"
+  },
+  "database": {
+    "client": "sqlite3",
+    "connection": {
+        "filename": "content/data/ghost.db"
+    },
+    "debug": false
+  },
+  "auth": {
+    "type": "password"
+  },
+  "paths": {
+    "contentPath": "content/"
+  },
+  "logging": {
+    "level": "info",
+    "rotation": {
+      "enabled": true
+    },
+    "transports": [
+      "file",
+      "stdout"
+    ]
+  }
+}

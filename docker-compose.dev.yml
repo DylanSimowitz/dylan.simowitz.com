@@ -7,9 +7,9 @@ services:
     restart: on-failure
 
   ghost:
+    environment:
+      - NODE_ENV=development
+      - url=http://dylan.simowitz.test/blog/
     restart: on-failure
-
-networks:
-  default:
-    external:
-      name: nginx-proxy
+    volumes:
+      - ./blog/config.development.json:/var/lib/ghost/config.development.json:ro

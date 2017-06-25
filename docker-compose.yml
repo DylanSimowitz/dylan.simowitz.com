@@ -16,26 +16,18 @@ services:
     expose:
       - 80
 
-  # ghost:
-  #   image: node:alpine
-  #   restart: always
-  #   volumes:
-  #     - ./blog/:/usr/src/app/
-  #     - content:/usr/src/app/content/
-  #   environment:
-  #     - PORT=2368
-  #   env_file:
-  #     - ./blog/ghost.env
-  #   expose:
-  #     - 2368
-
   ghost:
-    image: ghost:alpine
+    image: toxicsalt/ghost
     restart: always
+    environment:
+      - NODE_ENV=production
+      - url=https://dylan.simowitz.com/blog/
     env_file:
       - ./blog/ghost.env
     volumes:
-      - ./blog/content/:/var/lib/ghost/
+      - ./blog/config.production.json:/var/lib/ghost/config.production.json:ro
+    expose:
+      - 2368
 
 networks:
   default:
