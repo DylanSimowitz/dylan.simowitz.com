@@ -10,6 +10,7 @@ services:
     restart: always
     volumes:
       - ./src/:/usr/share/nginx/html/
+      - ./portfolio/:/usr/share/nginx/html/portfolio/
       - ./default.conf:/etc/nginx/conf.d/default.conf
     depends_on:
       - ghost
@@ -29,6 +30,12 @@ services:
       - ./blog/config.production.json:/var/lib/ghost/config.production.json:ro
     expose:
       - 2368
+
+  hugo:
+    image: toxicsalt/hugo
+    restart: always
+    volumes:
+      - ./portfolio/:/usr/src/hugo/
 
 networks:
   default:

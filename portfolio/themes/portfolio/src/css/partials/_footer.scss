@@ -1,0 +1,30 @@
+.portfolio-footer {
+  display: flex;
+  min-height: 60px;
+  background: $gradient-solid-stone;
+  color: white;
+  font-family: "Roboto";
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px;
+}
+.copyright {
+  width: susy-span(2);
+  font-size: 0.90em;
+}
+.social-buttons {
+  width: susy-span(2);
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  a {
+    color: white;
+    text-decoration: none;
+    &:hover,
+    &:visited {
+      text-decoration: none;
+    }
+  }
+}

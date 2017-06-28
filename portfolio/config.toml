@@ -1,0 +1,13 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "My New Hugo Site"
+theme = "portfolio"
+
+[params]
+  copyright = "Dylan Simowitz"
+
+  [params.social]
+  email         = "dsimowitz@gmail.com"
+  twitter       = "https://twitter.com/dylansimowitz"
+  linkedin      = "https://www.linkedin.com/in/dylan-simowitz-966688aa/"
+  github        = "https://github.com/dylansimowitz"
