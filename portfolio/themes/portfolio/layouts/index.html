@@ -1,2 +1,7 @@
-{{ partial "header" . }}
-{{ partial "footer" . }}
+{{ define "main" }}
+  <div class="grid">
+    {{ range (where .Data.Pages "Section" "project") }}
+      {{ .Render "li" }}
+    {{ end }}
+  </div>
+{{ end }}

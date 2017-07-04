@@ -1,0 +1,7 @@
+<a class="project" href={{ .URL }}>
+  <h2 class="project__title" >{{ .Title }}</h2>
+  <img class="project__preview" alt={{ .Params.image_alt }} src={{ .Params.image }}/>
+  <p class="project__summary">
+    {{ .Summary }}
+  </p>
+</a>

@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://example.org/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <title>Profiling on My New Hugo Site</title>
+    <link>http://example.org/tags/profiling/</link>
+    <description>Recent content in Profiling on My New Hugo Site</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Dylan Simowitz</copyright>
     <lastBuildDate>Fri, 21 Jun 2013 11:27:27 -0400</lastBuildDate>
     
-	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://example.org/tags/profiling/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>

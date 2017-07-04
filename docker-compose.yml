@@ -31,12 +31,6 @@ services:
     expose:
       - 2368
 
-  hugo:
-    image: toxicsalt/hugo
-    restart: always
-    volumes:
-      - ./portfolio/:/usr/src/hugo/
-
 networks:
   default:
     external:

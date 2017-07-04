@@ -1,6 +1,5 @@
-$fa-font-path: "~font-awesome/fonts/";
+$color-primary: #243949;
+$color-secondary: #517fa4;
 
-$color-primary: red;
-
-$gradient-morpheus-den: linear-gradient(45deg, #30cfd0 0%, #330867 100%);
-$gradient-solid-stone: linear-gradient(45deg, #243949 0%, #517fa4 100%);
+$gradient-solid-stone: linear-gradient(to right, $color-primary 0%, $color-secondary 100%);
+$gradient-saint-petersburg: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);

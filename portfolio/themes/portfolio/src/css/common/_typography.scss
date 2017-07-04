@@ -1,0 +1,38 @@
+@import '~modularscale-sass/stylesheets/modularscale';
+$modularscale: (
+  base: 1em,
+  ratio: 1.25
+);
+
+p {
+  font-family: 'Roboto', sans-serif;
+  font-size: ms(0);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Share Tech', sans-serif;
+}
+
+h1 {
+  font-size: ms(6);
+}
+h2 {
+  font-size: ms(5);
+}
+h3 {
+  font-size: ms(4);
+}
+h4 {
+  font-size: ms(3);
+}
+h5 {
+  font-size: ms(2);
+}
+h6 {
+  font-size: ms(1);
+}

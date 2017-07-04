@@ -3,6 +3,28 @@ languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "portfolio"
 
+[[menu.main]]
+    name = "Projects"
+    pre = ""
+    weight = -90
+    url = "/project"
+[[menu.main]]
+    name = "Blog"
+    pre = ""
+    weight = -100
+    identifier = "blog"
+    url = "/blog"
+[[menu.main]]
+    name = "Portfolio"
+    pre = ""
+    weight = -110
+    url = "/portfolio"
+[[menu.main]]
+    name = "Home"
+    pre = ""
+    weight = -120
+    url = "/"
+
 [params]
   copyright = "Dylan Simowitz"
 

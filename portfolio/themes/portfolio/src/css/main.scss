@@ -1,10 +1,18 @@
-@import "common/variables";
-@import "common/global";
+$fa-font-path: "~font-awesome/fonts/";
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:400,700|Roboto:100,300,400");
+@import url("https://fonts.googleapis.com/css?family=Share+Tech|Roboto:100,300,400");
 @import "~normalize.css/normalize.css";
 @import "~font-awesome/scss/font-awesome";
 @import "~susy/sass/susy";
-@import '~susy/sass/plugins/svg-grid';
+
+@import "common/mixins";
+@import "common/variables";
+@import "common/globals";
+@import "common/typography";
 
 @import "partials/footer";
+@import "partials/header";
+@import "partials/sidebar";
+@import "partials/portfolio";
+@import "partials/project";
+@import "partials/grid";

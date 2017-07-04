@@ -20,6 +20,13 @@ module.exports = removeEmpty({
     fs: 'empty'
   },
 
+  resolve: {
+    alias: {
+      'masonry': 'masonry-layout',
+      'isotope': 'isotope-layout',
+    }
+  },
+
   module: {
     rules: [
       {

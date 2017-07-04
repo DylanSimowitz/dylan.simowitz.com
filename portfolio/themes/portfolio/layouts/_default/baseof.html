@@ -1,0 +1,16 @@
+{{ partial "header" . }}
+<div class="shared">
+  {{ partial "sidebar" . }}
+  <main class="container">
+    <!-- <div id="container-loader" class="loader"></div> -->
+    <div id="barba-wrapper">
+      <div class="barba-container" data-namespace="{{ .URL }}">
+        <div class="content">
+          {{ block "main" . }}
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </main>
+</div>
+{{ partial "footer" . }}

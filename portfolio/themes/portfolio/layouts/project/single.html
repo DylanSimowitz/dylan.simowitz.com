@@ -1,0 +1,7 @@
+{{ define "main" }}
+  <div class="hero">
+    <img class="hero__cover-image" src={{ .Params.image }} alt={{ .Params.image_alt }} />
+  </div>
+  <h1>{{ .Title }}</h1>
+  <p>{{ .Content }}</p>
+{{ end }}
