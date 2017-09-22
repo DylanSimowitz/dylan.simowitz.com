@@ -1,0 +1,3 @@
+[submodule "portfolio"]
+	path = portfolio
+	url = ssh://git@gitlab.simowitz.com:10022/dsimowitz/portfolio.git
