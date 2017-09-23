@@ -3,34 +3,51 @@ version: '2'
 services:
   nginx:
     image: nginx:alpine
-    environment:
-      - VIRTUAL_HOST=dylan.simowitz.com,www.dylan.simowitz.com
-      - LETSENCRYPT_HOST=dylan.simowitz.com,www.dylan.simowitz.com
-      - LETSENCRYPT_EMAIL=dsimowitz@gmail.com
     restart: always
     volumes:
       - ./src/:/usr/share/nginx/html/
-      - ./default.conf:/etc/nginx/conf.d/default.conf
     depends_on:
       - ghost
     expose:
       - 80
+    labels:
+      - "traefik.port=80"
+      - "traefik.frontend.rule=Host:dylan.simowitz.com"
+      - "traefik.backend=dylan-home"
+      - "traefik.docker.network=web"
+      - "traefik.enable=true"
 
   ghost:
-    image: toxicsalt/ghost
+    image: ghost:alpine
     restart: always
     environment:
       - NODE_ENV=production
       - url=https://dylan.simowitz.com/blog/
-    env_file:
-      - ./blog/ghost.env
     volumes:
-      - ./blog/data/:/var/lib/ghost/content/data/
-      - ./blog/config.production.json:/var/lib/ghost/config.production.json:ro
+      - ./blog/data/:/var/lib/ghost/content
     expose:
       - 2368
+    labels:
+      - "traefik.port=2368"
+      - "traefik.frontend.rule=Host:dylan.simowitz.com;PathPrefix:/blog"
+      - "traefik.backend=dylan-blog"
+      - "traefik.docker.network=web"
+      - "traefik.enable=true"
+
+  portfolio:
+    image: registry.gitlab.simowitz.com/dsimowitz/portfolio
+    restart: always
+    command: hugo server --watch=false --baseURL=https://dylan.simowitz.com/portfolio --appendPort=false --bind=0.0.0.0 --canonifyURLs --renderToDisk
+    expose:
+      - 1313
+    labels:
+      - "traefik.port=1313"
+      - "traefik.frontend.rule=Host:dylan.simowitz.com;PathPrefix:/portfolio"
+      - "traefik.backend=dylan-portfolio"
+      - "traefik.docker.network=web"
+      - "traefik.enable=true"
 
 networks:
   default:
     external:
-      name: nginx-proxy
+      name: web
