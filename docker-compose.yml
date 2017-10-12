@@ -2,7 +2,7 @@ version: '2'
 
 services:
   home:
-    image: registry.gitlab.simowitz.com/dsimowitz/dylan-simowitz-com
+    image: registry.gitlab.simowitz.com/dsimowitz/dylan.simowitz.com
     restart: always
     expose:
       - 80
