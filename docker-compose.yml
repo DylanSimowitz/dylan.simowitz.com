@@ -1,13 +1,9 @@
 version: '2'
 
 services:
-  nginx:
-    image: nginx:alpine
+  home:
+    image: registry.gitlab.simowitz.com/dsimowitz/dylan-simowitz-com
     restart: always
-    volumes:
-      - ./src/:/usr/share/nginx/html/
-    depends_on:
-      - ghost
     expose:
       - 80
     labels:
@@ -17,7 +13,7 @@ services:
       - "traefik.docker.network=web"
       - "traefik.enable=true"
 
-  ghost:
+  blog:
     image: ghost:alpine
     restart: always
     environment:
