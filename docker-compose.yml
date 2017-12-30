@@ -29,6 +29,7 @@ services:
       - "traefik.backend=dylan-blog"
       - "traefik.docker.network=web"
       - "traefik.enable=true"
+      - "traefik.frontend.redirect=https"
 
   portfolio:
     image: registry.gitlab.simowitz.com/dsimowitz/portfolio
@@ -42,6 +43,7 @@ services:
       - "traefik.backend=dylan-portfolio"
       - "traefik.docker.network=web"
       - "traefik.enable=true"
+      - "traefik.frontend.redirect=https"
 
 networks:
   default:
