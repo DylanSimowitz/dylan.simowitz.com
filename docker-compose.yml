@@ -6,6 +6,8 @@ services:
     restart: always
     expose:
       - 80
+    volumes:
+      - ./files:/usr/share/nginx/html/files
     labels:
       - "traefik.port=80"
       - "traefik.frontend.rule=Host:dylan.simowitz.com"
