@@ -23,3 +23,15 @@ build:
     - docker push "$CI_REGISTRY_IMAGE:$CI_COMMIT_REF_SLUG"
   except:
     - master
+
+pages:
+  stage: deploy
+  script:
+  - mkdir .public
+  - cp -r src/* .public
+  - mv .public public
+  artifacts:
+    paths:
+    - public
+  only:
+  - master
