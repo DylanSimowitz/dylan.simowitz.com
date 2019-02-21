@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  max-width: 900px;
+  margin: 0 auto;
+}
+h1,h2,h3,h4,h5,h6,p {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+p,ul,li {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+h1 {
+  font-size: 1.6rem;
+}
+h2 {
+  font-size: 1.2rem;
+  display: flex;
+  align-items: center;
+}
+h2::after {
+  content: '';
+  height: 1px;
+  background: black;
+  flex: 1;
+  display: block;
+  margin-left: 4px;
+}
+h3 {
+  margin: 4px 0;
+  font-size: 1rem;
+}
+h4 {
+  margin-top: 2px;
+  font-weight: normal;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cert_skills__list {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+}
+
+.education__meta {
+  display: flex;
+}
+
+.education__meta > div {
+  margin-right: 2px;
+  border-right: 1px solid black;
+  padding-right: 4px;
+}
+.education__meta > div:last-child {
+  border-right: none;
+}
+.meta {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+}
+
+@media print {
+  h1,h2,h3,h4,h5,h6,p {
+    margin: 0;
+  }
+  body {
+    max-width: 650px;
+  }
+  .experience > ul {
+    margin: 0;
+    margin-top: 4px;
+  }
+  .meta {
+    margin-bottom: 0;
+  }
+}
