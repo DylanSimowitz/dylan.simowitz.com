@@ -92,8 +92,6 @@ h4 {
 
 @media print {
   html {
-    /* transform: scale(0.75); */
-    /* transform-origin: top; */
-    font-size: 0.9em;
+    font-size: 0.81em;
   }
 }
