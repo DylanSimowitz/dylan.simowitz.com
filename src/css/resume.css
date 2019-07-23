@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 body {
-  max-width: 900px;
+  max-width: 8.5in;
   margin: 0 auto;
 }
 h1,h2,h3,h4,h5,h6,p {
@@ -52,8 +52,13 @@ h4 {
   list-style: none;
   display: flex;
   justify-content: space-between;
-  margin: 0;
+  flex-wrap: wrap;
+  margin: -3px -6px;
   padding: 0;
+}
+
+.cert_skills__list li {
+  margin: 3px 6px;
 }
 
 .education__meta {
@@ -74,6 +79,12 @@ h4 {
   margin-bottom: 0.5rem;
 }
 
+.experience__date::before {
+  content: '\f133';
+  font-family: "Font Awesome 5 Free";
+  margin-right: 8px;
+}
+
 /* @media print {
   h1,h2,h3,h4,h5,h6,p {
     margin: 0;
@@ -92,6 +103,6 @@ h4 {
 
 @media print {
   html {
-    font-size: 0.81em;
+    font-size: 0.83em;
   }
 }
