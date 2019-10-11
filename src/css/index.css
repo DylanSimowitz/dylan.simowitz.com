@@ -32,6 +32,7 @@ a:visited,
 a:hover {
   color: white;
   text-decoration: none;
+  border-bottom: 1px dotted white;
 }
 
 .about {
@@ -48,6 +49,25 @@ a:hover {
 
 .name {
   text-align: center;
+}
+
+.subpages {
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+}
+
+.subpages a {
+  text-transform: lowercase;
+}
+
+.subpages > * + * {
+  display: list-item;
+  margin-left: 1.7rem;
+}
+
+.subpages > * + *::marker {
+  /* font-size: 0.9rem; */
 }
 
 @keyframes fade-in {
