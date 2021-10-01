@@ -1,0 +1,61 @@
+site_name: School
+site_description: "Notes from SDCCD and Palomar community college courses"
+site_author: "Dylan Simowitz"
+site_url: https://dylan.simowitz.com/school
+docs_dir: "./docs"
+repo_url: https://github.com/dylansimowitz/school-wiki/
+
+# Fail to build if we have broken links
+strict: false
+
+# Navigation
+# nav:
+#   - Discrete Math:
+#       - ...
+
+# Copyright
+copyright: "Copyright &copy; 2021 Dylan Simowitz"
+
+# Plugins
+plugins:
+  - awesome-pages
+  - search
+  - minify:
+      minify_html: true
+      minify_js: true
+
+theme:
+  name: material
+  language: en
+  palette:
+    scheme: slate
+    primary: deep purple
+    accent: purple
+  feature:
+    - search.highlight
+    - navigation.instant
+    - navigation.tabs
+    - navigation.sections
+  font:
+    text: "Roboto"
+    code: "Cascadia Code PL"
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/dirsigler
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/dirsigler
+
+markdown_extensions:
+  - meta
+  - def_list
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+extra_javascript:
+  - javascript/config.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js

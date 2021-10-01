@@ -1,0 +1,123 @@
+{
+  "main": {
+    "id": "469e7d753cd3f2be",
+    "type": "split",
+    "children": [
+      {
+        "id": "2a300f2e405321e2",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Discrete Math/Notes/2.1 Formal Logic.md",
+            "mode": "source"
+          }
+        },
+        "group": "72b25c1976b4c6a7"
+      },
+      {
+        "id": "09b71bdba0623b02",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Discrete Math/Notes/2.1 Formal Logic.md",
+            "mode": "preview"
+          }
+        },
+        "group": "72b25c1976b4c6a7"
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "1e5c827d096a7f6c",
+    "type": "split",
+    "children": [
+      {
+        "id": "53c2ce856e20a5e4",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6c5dec7ce4377ab3",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "d976405a95e02368",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 135
+  },
+  "right": {
+    "id": "ace389e7f7f2c998",
+    "type": "split",
+    "children": [
+      {
+        "id": "5fb6941b0b1ece5e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "537412cc0a995270",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Discrete Math/Notes/2.1 Formal Logic.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "9b5bc4bd89d1a324",
+            "type": "leaf",
+            "state": {
+              "type": "side-panel-control-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "active": "2a300f2e405321e2",
+  "lastOpenFiles": [
+    "Discrete Math/Notes/2.1 Formal Logic.md",
+    "Discrete Math/Notes/Untitled.md",
+    "Biology/Notes/Lecture 2.md",
+    "Biology/Notes/Lecture 1.md",
+    "BIOL 201/Notes/Lecture 1.md",
+    "BIOL 201/Notes/Lecture 2.md",
+    "BIOL 201/Notes/Untitled.md",
+    "Discrete Math/Homework/1.1.md",
+    "Discrete Math/Homework/1.md",
+    "Discrete Math/Homework/Untitled.md"
+  ]
+}

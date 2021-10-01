@@ -1,0 +1,577 @@
+# Unit 1 Study Guide
+
+- Darwin
+	- Evolution is "descent with modification"
+	- The mechanism for evolution is natural selection
+	- Aristotle
+		- Believed all species are created by god and "are perfect and permanent"
+		- Created latter system to clasify organizms hierarchically by complexity
+	- Linneaus
+		- Created a system to categorize species by nested system
+	- Fossils
+		- Cuvier
+			- Father of paleontology: the study of fossils
+			- Catastrophism suggests extinction events in earths history resulted in boundaries of fossil layers
+		- Fossil record as timeline
+	- Hutton
+		- Gradualism suggested evolution happened slowly over time rather than suddenly
+	- Lyell
+		- Uniformitarianism suggests the same natural laws always existed
+	- Malthus
+		- "Organisms produce more offspring than the environment can support"
+		- Suggests competition because of limited resources
+	- Lamarck
+		- Use and disuse of body parts
+		- Inheritance of acquired characteristics
+	- Wallace
+		- Came up with same theory as Darwin but Darwin published first
+	- Adaptation
+		- Organisms that have traits to enhance their survivability in an environment.
+		- Leads to specialization
+		- Results from competition and limited resources
+	- Darwin's simple argument
+		- Observations
+			- Members of a population often vary in their inherited traits
+			- All species can produce more offspring than the environment can support, and many of these offspring fail to survive or reproduces
+		- Inferences
+			- Individuals who inherited traits give them a higher probability of surviving and reproducing in a given environment tend to leave more offspring than other individuals
+			- This unequal ability of individuals to survive and reproduce will lead to the accumulation of favorable traits in the population over generations
+	- Natural selection
+		- Individuals do not evolve, populations do
+		- Can only increase or decrease heritable traits that vary in a population
+		- Does not create new traits, but edits or selects for traits already present in the population
+		- The current, local environment determines which traits will be selected for or selected agains in any specific population
+	- Evidence of evolution
+		- Direct observations
+			- Soapberry bug beak length differs based on size of fruit they feed on
+			- Drug resistant bacteria *Staphylococcus aureus*
+		- Homology
+			- Similarity resulting from common ancestry
+			- Homologous structures are anatomical resemblances that represent variations on a structural theme present in a common ancestor
+				![[../../Discrete Math/Notes/attachments/Screen Shot 2021-09-25 at 11.44.17 AM 1.png]]
+				- Vestigial structures are remnants of features that served important functions in the organism's ancestors
+			- Analogous structures look alike but did not evolve from the same ancestry
+				- Convergent evolution is the evolution of similar, or analogous, features in distantly related groups
+				- Does not provide information about ancestry
+				- Arise when independent adaptation occurs in similar environments
+		- Fossil record
+			- Provides evidence of the extinction of species, the origin of new groups, and changes within groups over time
+			- Documents important transitions
+		- Biogeography
+			- The scientific study of the geographic distributions of species
+			- Endemic species are species not found anywhere else in the world
+		- Speciation
+			- A group of populations whose members have the potential to interbreed in nature and produce viable, fertile offspring; they do not breed successfully with members of other populations
+			- Reproductive isolation is the existence of biological factors that impede two species from producing viable, fertile offspring
+			- Reproductive barriers
+				- Prevents two species from interbreeding successfully
+				- Prezygotic
+					- Habitat isolation
+						- Species occupy different habitats
+					- Temporal isolation
+						- Species breed at different times of the day, seasons, or years
+					- Behavioral isolation
+						- Courtship rituals and other unique behaviors
+					- Mechanical isolation
+						- Morphological differences
+					- Gametic isolation
+						- Sperm of one species may not be able to fertilize eggs of another
+				- Postzygotic
+					- Reduced hybrid viability
+						- Genes of the different parent species may interact and impair the hybrid's development or survival in its environment
+					- Reduced hybrid fertility
+						- Hybrids may be sterile
+						- Donkey + Horse = Mule (sterile)
+					- Hybrid breakdown
+						- Some first-generation hybrids are fertile, but when they mate with each other or with either parent species, offspring of the next generation are feeble or sterile
+	- Mendel
+		- Proved existence of genes using pea plants
+	- Genetic variation
+		- Caused by differences in genes or other DNA segments
+		- Important for producing adaptations in a changing environment
+		- Causes
+			- Mutations
+				- Gene duplication
+				- Deceasing generation time (more cell division)
+			- Sexual reproduction
+				- Shuffles existing alleles into new combinations
+				- More important for adaptations than mutation in sexually reproducing organisms
+	- Hardy-Weinberg Equation
+		- Tests if a population is evolving
+		- $p^2+2pq+q^2=1$
+		- If equal to 1 then population is **not** evolving
+		- Five conditions for non-evolving populations
+			- No mutations
+			- Random mating
+			- No natural selection
+			- Extremely large population size
+			- No gene flow
+	- Genetic drift
+		- Founder effect
+			- Occurs when a small subset of a population emmigrates and thus decreases the gene pool
+		- Bottleneck effect
+			- Some event reduces the population size which reduces the gene pool
+	- Gene flow
+		- Transfer of genetic material from one population to another.
+		- Genetic pollution occurs when the genetic material of one population (immigrants) have traits that are not adaptable to the new population
+	- Natural selection
+		- Not random and consistently results in adaptations
+		- Directional
+			- Favors $\pm 50$th percentile
+		- Disruptive
+			- Favors both extremes
+		- Stabilizing
+			- Favors average
+		- ![[../../Discrete Math/Notes/attachments/Pasted image 20210925123628.png]]
+	- Speciation
+		- Allopatric
+			- Geographically isolated populations
+			- Each population has their own mutations
+		- Sympatric
+			- Geographically overlapping
+			- Habitat differentiation
+				- Focus on different resources
+			- Sexual selection
+				- Certain sexual preferences
+	- How is the fossil record biased?
+		- Soft bodied organisms don't leave a trace
+		- Rare organisms likely not preserved / low chance of being found
+	
+| Time    | Description                                                                                                                                                                                                                                                     |
+| ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 3.5 bya | the oldest fossil record which were bacterial mats - origin of prokaryotes                                                                                                                                                                                      |
+| 1.8 bya | origin of eukaryotes                                                                                                                                                                                                                                            |
+| 1.2 bya | origin of multicellular organisms - all cells need some way to adhere to each other, cells need to be able to communicate with one another and function as a whole                                                                                              |
+| 540 mya | cambrian explosion - huge explosion of organismal diversity including many organisms that resemble organisms in modern days                                                                                                                                     |
+| 488 mya | life moved on to land - with the exception of bacteria plants and fungi likely moved onto land first                                                                                                                                                            |
+| 250 mya | permian extinction - caused by a lot of volcanic eruptions which polluted the atmosphere, very toxic gasses accumulated such as methane, hyrdogen sulfide, and $CO_2$ - approximately 96% of life went extinct (mostly marine life)                             |
+| 65 mya  | cretaceous extinction - wiped out the dinosaurs - a large meteorite hit the planet - the impact wiped out a large amount of life, but the aftermath where a lot of debris blocked off sunlight led the global climate changes - this led to the mass extinction | 
+
+- Endosymbiont theory - origin of eukaryotic organelles is likely where a larger eukaryotic cell engulfed a smaller prokaryote and the prokaryote became a mutual simbiote permanently living inside
+- After extinction events, you see adaptive radiation - following an extinction event, usually there's a huge explosion of diversity because the survivors have no competition, and they continue to diversify and specialize
+	- 5 major extinction events - are we in a 6th?
+- Systematics is the study of the historical diversity of life and how theyre related
+- Phylogeny trees
+	- Basal means more closely related to parent ancestor (less branches)
+	- Taxa (taxon) are the siblings of a branch
+	- Clades (groupings)
+		- Monophyletic
+			- Shared common ancestor and all descendents
+		- Polyphyletic
+			- Grouping of taxa that don't share a direct common ancestor
+		- Paraphyletic
+			- Shared common ancestor but not all descendents
+	- Ancestral character is a character that originated in an ancestor of the taxon
+	- Derived character is an evolutionary novelty unique to a particular clade
+- Hierarchy
+	1) Species
+	2) Genus
+	3) Family
+	4) Order
+	5) Class
+	6) Phylum
+	7) Kingdom
+	8) Domain
+- Bacteria
+	- Gram-positive
+		- Have exposed peptidoglycan layer
+		- Purple in gram stain
+	- Gram-negative
+		- Have outer capsule which covers peptidoglycan layer
+		- Pink in gram stain
+	- Gram staining
+		1) Application of crystal violet
+		2) Application of iodine
+		3) Alcohol wash
+		4) Application of safranin
+	- Resistance
+		- Outer capsule
+		- Endospore
+			- Provides stasis for DNA while bacteria dies
+			- Antibiotic persistance not evolved
+		- Antibiotic resistance is evolved
+	- Reproduction
+		- Binary fission
+		- Genetic diversity
+			- Mutation
+			- Transduction
+				- Use of viral capsules which transmit foreign DNA
+			- Transformation
+				- Bacteria can take up foreign DNA from the environment and incorporate it into their genome
+			- Conjugation
+				- Reproduction using sex pilus
+		- Modes of nutrition
+			- Autotrophs make their own food (producers)
+			- Heterotrophs cannot make their own food (consumers)
+			
+| Mode             | Energy Source                                     | Carbon Source                       | Types of Organisms                                                                    |
+| ---------------- | ------------------------------------------------- | ----------------------------------- | ------------------------------------------------------------------------------------- |
+| Photoautotroph   | Light                                             | $CO_2, HCO_3^-$ or related compound | Photosynthetic prokaryotes (cyanobacteria), plants, certain protists (algae)          |
+| Chemoautotroph   | Inorganic chemicals such as $H_2S, NH_3, Fe^{2+}$ | $CO_2, HCO_3^-$ or related compound | Unique to certain prokaryotes (*Sulfolobus*)                                          |
+| Photoheterotroph | Light                                             | Organic compounds                   | Unique to certain aquatic and salt-loving prokaryotes (*Rhodobacter*, *Chloroflexus*) |
+| Chemoheterotroph | Organic compounds                                 | Organic Compounds                   | Many prokaryotes, protists, fungi, animals, some plants                                                                                      |
+
+- Nitrogen
+	- ![[../../Discrete Math/Notes/attachments/Pasted image 20210925141017.png]]
+	- Photosynthetic cells perform photosynthesis
+	- Heterocyst performs nitrogen fixation
+- Phylum Proteobacteria
+	- Gram-negative
+- Phylum Chlamydias
+	- Parasitic	
+- Phylum Spirochetes
+	- Parasitic
+- Phylum Firmicutes
+	- Gram-positive
+- Domain Archaea
+	- Don't have peptidoglycan in cell wall
+	- Extremophiles
+	- Major Phylums
+		- Korachaeotes
+			- Thermophiles
+			- Hot-spring/hydrothermal vents
+		- Nanoarchaeotes
+			- Single species isolated from deep-sea hydrothermal vent
+			- Symbiotic
+			- Smallest archaeon
+		- Euryarchaeotes
+			- Many methane relasing (methanogens)
+			- Strictly anaerobic (without oxygen)
+			- Live in swamps, ice, and intestines
+		- Crenarchaeotes
+			- Most abundant archaea in the marine environment
+			- Also live in sulfur-rich volcanic springs
+			- *Sulfolobus-* used in biotech
+- **Protists**
+	- ![[../../Discrete Math/Notes/attachments/Pasted image 20210925142540.png]]
+	- Diversity
+		- Endosymbiont theory
+		- Secondary endosymbiosis
+	- Supergroups
+		- Excavata
+			- Flagellum
+			- Unique cytoskeletal feature shared by many excavates
+			- Excavated feeding groove
+			- Free-living, symbiotic, and human pathogens
+			- *Trichonympha* termite
+		- Euglenozoa
+			- Crystalline rod structure in flagella
+			- *Trypanosoma* african sleeping sickness
+			- Class Kinetoplastida
+				- Single large mitochondria
+			- Class Euglenoidea
+				- Pocket at the end of cell
+				- Two flagella
+				- Mixotrophic (eye spots photosynthesis)
+		- SAR
+			- Phylum Heterokonotophyta (Stremenopiles)
+				- Flagellum with hair-like projections usually paired with smaller smooth flagella
+				- Class Bacillariophyceae
+					- Diatoms
+					- Silica shells
+					- ![[../../Discrete Math/Notes/attachments/Screen Shot 2021-09-25 at 2.35.26 PM.png]]
+				- Class Crysophyceae
+					- Golden algae
+					- Mixotrophs
+				- Class Phaeopyceae
+					- Brown algae
+					- Kelps
+					- Parts
+						- Blade: leaves
+						- Stipe: stem
+						- Holdfast: roots
+						- Thallus: everything
+					- Lifecycle
+						- Alternation of generations
+						- Sporophyte dominant (2n)
+						- Male and female gametophytes (n)
+						- Fertilization to become sporophyte (2n)
+				- Alveolates
+					- Membrane enclosed sacs (alveoli) under plasma membrane
+					- Phylum Dinoflagellata
+						- Cause red tide
+						- Cell plate made of cellulose
+						- Can be photosynthetic and mutualistic
+						- Can be parasytic using dinotoxins
+					- Phylum Apicomplexa
+						- Parasites (malaria)
+							1) Infect liver to produce merozoite (n)
+							2) Infect red blood cells to produce gametocytes
+							3) Fertilization of gametes
+							4) Meiosis to produce sporozoites (n)
+							5) Repeat cycle
+					- Phylum Ciliophora
+						- Cilicates (covered in cilia)
+						- Most have macronucleus and micronuclei
+							- Macronucleus used for asexual reproduction
+							- Micronucleus used for sexual reproduction
+	- Rhizaria
+		- Thread or "hair-like" pseudopodia
+		- Phylum Radiolaria
+			- Planktonic
+			- Silicate shells
+			- Many have algal symbionts
+		- Phylum Foraminifera
+			- Planktonic
+			- Calcium carbonate shells
+			- Algal symbionts
+	- Archaeplastida
+		- Photosynthetic
+		- Phylum Rhodophyta
+			- Red algae
+			- Can be large and multicellular
+			- Found in deeper water where red color is good at absorbing blue light
+		- Phylum Chlorophytes
+			- Green algae
+			- Less closely related to land plants
+		- Phylum Charophytes
+			- Green algae
+			- More closely related to land plants
+	- Unikonta
+		- Phylum Amoebazoa
+			- Slime Molds
+				- Plasmodial
+					- ![[../../Discrete Math/Notes/attachments/Pasted image 20210925153857.png]]
+				- Cellular
+					- ![[../../Discrete Math/Notes/attachments/Pasted image 20210925154025.png]]
+		- Tubulinids
+			- Single celled amoeba
+			- Pseudopodia significantly larger
+			- Tube or lobe shaped pseudopodia
+		- Phylum Opisthokont
+			- Nucleariids -> Fungi
+			- Choanoflagellates -> Animals
+- **Fungi**
+	- Difference between fungi and plants
+		- Cell wall composed of chitin (cellulose in plants)
+		- Absorptive Heterotrophs (plants are photosynthetic autotrophs)
+	- Lifestyles
+		- Decomposers
+			- Shelf fungi
+		- Parasites
+			- Corn smut
+			- Tar spot
+			- Mycosis (ringworm)
+		- Mutualists
+			- Leaf cutter ants fungus garden
+			- Lichens are a symbiotic relationship between a fungus and green algae or cyanobacteria
+				- Mostly ascomycetes
+				- Fungus receives sugars
+	- Anatomy
+		- Hyphae are individual "fibers"
+			- Septate hypha are divided into sections by septums
+				- Basidiomycetes
+				- Ascomycetes
+				- Dikaryotic
+			- Coenocytic hypha contain no separation
+				- Zygomycetes
+				- Heterokaryotic
+		- Mycelium is a mass of hyphae
+		- Fruiting body is the above ground structure (think mushroom)
+	- Lifecycle
+		- ![[../../Discrete Math/Notes/attachments/Pasted image 20210925155918.png]]
+	- Molds are asexually reproducing fungi that reproduce via spores
+	- Yeasts are unicellular fungi that reproduce asexually by budding
+	- Phylum Chytridiomycota
+		- Flagellated spores
+		- Parasitic to amphibian skin
+		- Most basal
+	- Phylum Zygomycota
+		- Bread molds
+		- Lifecycle
+			- ![[../../Discrete Math/Notes/attachments/Pasted image 20210926115157.png]]
+	- Phylum Glomeromycota
+		- Mycorrhizal fungi
+			- Forms mutualistic relationship with plant roots
+	- Phylum Ascomycota
+		- Most diverse of all fungi
+		- Ascocarps are elaborate fruiting bodies
+		- Conidia are chains of asexual spores **not** inside a sporangia
+		- ![[../../Discrete Math/Notes/attachments/Pasted image 20210926115807.png]]
+	- Phylum Basidiomycetes
+		- Good at decomposing wood
+		- ![[../../Discrete Math/Notes/attachments/Pasted image 20210926115955.png]]
+- **Plants**
+	- Charophytes gave rise to land plants
+	- Colonizing land
+		- Advantages
+			- More resources (no competition)
+			- No predators
+			- Plentiful $CO_2$
+			- Unfiltered Light
+			- Nutrient-rich soil
+		- Disadvantages
+			- Reproduction
+			- Dehydration
+				- Sporopollenin prevents exposed zygotes from drying out
+					- Found in plant spore walls
+			- Gravity
+		- Unique derived traits
+			- Alternation of generations
+			- Multicellular, dependent ebryos
+			- Walled spores produced in sporangia
+				- Produce spores
+			- Multicellular gametangia
+				- Produce gametes
+				- Archegonia produce egg
+				- Antheridia produce sperm
+			- Apical meristems
+				- Cluster of cells used for growth of plant roots and shoots
+		- Lifecycle
+			- ![[../../Discrete Math/Notes/attachments/Pasted image 20210926122021.png]]
+		- Advances in land plants
+			- Chemical defenses
+			- Cuticle
+				- Waxy layer for defense + water retention
+		- Leaves
+			- Microphylls are simple with only a single vein
+			- Megaphylls are broad and flat
+			- Sporophylls produce spores
+				- Homosporous
+					- Spore produces bisexual gametophyte with both sperm and eggs
+				- Heterosporous
+					- Megaspore produces female gametophyte containing eggs
+					- Microspore produces male gametophyte containing sperm
+			- Simple
+				- Does not divide into smaller leaflets
+				- Always attached to a twig by its stem or petiole
+			- Compound
+				- Has smaller leaflets attached to middle vein
+				- Spread out leaf tissue while minimizing surface area
+					- Reduces wind resistance and water loss
+			- Large vs Small
+				- Large better at photosynthesis but worse at drought resistance
+				- Small better at drought resistance but worse at photosynthesis
+			- Alternative functions
+				- Spines for protection (cacti)
+		- Nonvascular plants
+			- Phyla
+				- Hepatophyta (liverworts)
+					- Smallest sporophytes of nonvascular plants
+					- Gemmae cups allow for asexual reproduction
+				- Bryophyta (mosses)
+					- ![[../../Discrete Math/Notes/attachments/Pasted image 20210926124034.png]]
+				- Anthocerophyta (hornworts)
+					- Photosynthetic sporophytes
+			- No vascular tissue means no capillary action
+			- Obtain water via osmosis
+			- Gametophyte dominant
+		- Vascular plants
+			- Sporophyte dominant
+			- Vuscular tissue
+				- Xylem
+				- Phloem
+			- Grow tall
+				- To compete for sunlight
+				- Disperse offspring easier
+			- Seedless plants
+				- Phyla
+					- Lycophytes (club mosses, spike mosses, quillworts)
+						- Heterosporous
+					- Monilophyta (ferns, horsetails, whisk ferns)
+						- Sori contain sporangia
+						- ![[../../Discrete Math/Notes/attachments/Pasted image 20210926130007.png]]
+						- Need water for fertilization (nonflagellated sperm)
+			- Seed plants
+				- Seed functions (adaptations)
+					- Protection
+					- Dispersion
+					- Can remain dormant
+						- Germination when environment is suitable
+							- Acid, fire, ice, etc.
+					- Don't need water (pollination)
+				- Anatomy of seed
+					- Seed coat
+					- Nutrients
+					- Embryo
+				- ![[../../Discrete Math/Notes/attachments/Pasted image 20210926130744.png]]
+					1) Pollen grain lands in micropyle
+					2) Pollen tube grows into female gametophyte (containing egg)
+					3) Fertilization into embryo
+					4) Female gametophyte turns into food supply and seed coat forms (in gymnosperm)
+				- Pollenation allows for sperm to be carried via the air rather than water
+					- Fertilization is when sperm and egg fuse
+				- Phyla
+					- Gymnosperms (naked seed)
+						- Heterosporous
+						- Ginkgophyta
+						- Cyadophyta
+						- Gnetophyta
+						- Coniferophyta
+						- ![[../../Discrete Math/Notes/attachments/Pasted image 20210926131144.png]]
+					- Anthophyta (Angiosperms)
+						- Accounts for 90% of all plant diversity today
+						- Unique from gymnosperms
+							- Flower
+								- ![[../../Discrete Math/Notes/attachments/Pasted image 20210926131552.png]]
+							- Fruit
+								- Ovary of the plant
+							- Animal pollination
+								- More efficient than wind pollination
+							- Double fertilization
+								- ![[../../Discrete Math/Notes/attachments/Pasted image 20210926131951.png]]
+						- Heterosporous
+						- ![[../../Discrete Math/Notes/attachments/Pasted image 20210926131833.png]]
+						- Monocots
+							- One cotyledon (nutritional region of seed)
+								- ![[../../Discrete Math/Notes/attachments/Pasted image 20210926133712.png]]
+							- Parallel veins
+							- Complex vascular bundles
+							- Fibrous root system
+							- Floral parts in multiples of three
+							- Pollen grain with one opening
+							- ![[../../Discrete Math/Notes/attachments/Pasted image 20210926134004.png]]
+						- Eudicots
+							- Two cotyledons
+								- ![[../../Discrete Math/Notes/attachments/Pasted image 20210926133511.png]]
+							- Netlike veins
+							- Ringed vascular bundles
+							- Taproot present
+							- Floral parts in multiples of four or five
+							- Pollen grain with three openings
+							- ![[../../Discrete Math/Notes/attachments/Pasted image 20210926133935.png]]
+						- Organs
+							- Roots
+								- Used for absorption of nutrients and water
+								- Alternative functions
+									- Props roots
+										- Allows for vertical **and** horizontal growth
+									- Storage roots
+										- Stores extra nutrients that a plant collects or makes
+									- "Strangling" aerial roots
+									- Buttress roots
+										- Stabilization
+								- ![[../../Discrete Math/Notes/attachments/Pasted image 20210926140751.png]]
+							- Stems
+								- Alternative functions
+						- Tissue types
+							- Dermal tissue is the outer ring
+							- Vascular tissue transports water and nutrients
+							- Ground tissue is remaning space
+						- Cell types
+							- Parenchyma
+								- Usually photosynthetic
+								- Most of the ground tissue
+							- Collenchyma
+								- Flexible structural support
+								- Only found in areas where plant is growing
+								- Alive
+							- Sclerenchyma
+								- Heavy structural support
+								- Only found in nongrowing portions of plant
+								- Dead
+							- Xylem
+								- Used for transportation of water
+								- Comprised of vessel element and tracheids
+								- Transpiration
+									- ![[../../Discrete Math/Notes/attachments/Pasted image 20210926140204.png]]
+							- Phloem
+								- Sieve-tube elements
+									- Transport the sugars around the plant
+								- Companion cells
+									- Share nutrients to sieve-tube elements to keep them alive
+								- Translocation
+									- ![[../../Discrete Math/Notes/attachments/Pasted image 20210926140402.png]]
+							- Primary vs secondary growth
+								- Primary increases vertically (stem and roots)
+								- Secondary increases girth (cork cambium and vascular cambium)
