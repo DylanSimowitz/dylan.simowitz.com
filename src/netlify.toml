@@ -1,3 +1,3 @@
 [build]
-  base = "src/"
+  base = ""
   publish = "src/"
