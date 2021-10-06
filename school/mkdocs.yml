@@ -32,7 +32,7 @@ theme:
     scheme: slate
     primary: deep purple
     accent: purple
-  feature:
+  features:
     - search.highlight
     - navigation.instant
     - navigation.tabs
@@ -49,6 +49,7 @@ extra:
       link: https://twitter.com/dirsigler
 
 markdown_extensions:
+  - admonition
   - meta
   - def_list
   - pymdownx.arithmatex:
