@@ -4,7 +4,7 @@ site_author: "Dylan Simowitz"
 site_url: https://dylan.simowitz.com/school
 docs_dir: "docs"
 site_dir: "site/school"
-repo_url: https://gitlab.com/dylansimowitz/dylan.simowitz.com/-/tree/master/school
+repo_url: https://github.com/DylanSimowitz/dylan.simowitz.com
 
 # Fail to build if we have broken links
 strict: false
