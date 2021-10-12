@@ -63,6 +63,8 @@ Note that we prove that
 
 ## Principle of Mathematical Induction
 
+---
+
 Suppose $P(n)$ is a property that is for integer $n$ and $a$ is a fixed integer.
 
 Suppose the following two statments are true.
@@ -76,6 +78,8 @@ Then by mathematical induction $P(n)$ is true for all integers $n \geq a$
 
 
 ### Example 1
+
+---
 
 Prove by induction
 
@@ -116,6 +120,8 @@ So $P(k+1)$ is also true.
 By induction $P(n)$ is true for all $n \geq 1$
 
 ### Example 2
+
+---
 
 Prove by induction
 
