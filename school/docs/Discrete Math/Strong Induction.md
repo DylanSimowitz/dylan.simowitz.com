@@ -36,7 +36,7 @@ one should prove that $p(n)$ is true for all $n \geq 0$
 `B`: If $n=0\Rightarrow a_0=3(2^0)+2(5^0)=3+2=5$
 : $p(0)$ is true
 
-`B`: If $n=1\Rightarrow a_1=3(2^1)+2(5^1)=6+10=10$
+`B`: If $n=1\Rightarrow a_1=3(2^1)+2(5^1)=6+10=16$
 : $p(1)$ is true
 
 `I`: Suppose $k\geq1$ is given such that $p(0),p(1),\dots,p(k-1),$ and $p(k)$ are true.
