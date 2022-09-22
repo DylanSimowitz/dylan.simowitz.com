@@ -26,7 +26,7 @@ h2 {
 }
 h1,h2 {
   display: flex;
-  align-items: center;
+  align-items: baseline;
 }
 h1::after, h2::after {
   content: '';
@@ -76,6 +76,7 @@ h4 {
   margin-bottom: 0.5rem;
 }
 
+.education__date::before,
 .experience__date::before {
   content: '\f133';
   font-family: "Font Awesome 5 Free";
