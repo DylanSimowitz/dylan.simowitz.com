@@ -1,9 +1,9 @@
-site_name: School
-site_description: "Notes from SDCCD and Palomar community college courses"
+site_name: Notes
+site_description: "Notes"
 site_author: "Dylan Simowitz"
-site_url: https://dylan.simowitz.com/school
+site_url: https://dylan.simowitz.com/notes
 docs_dir: "docs"
-site_dir: "site/school"
+site_dir: "site/notes"
 repo_url: https://github.com/DylanSimowitz/dylan.simowitz.com
 
 # Fail to build if we have broken links
@@ -49,6 +49,11 @@ extra:
       link: https://twitter.com/dirsigler
 
 markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
   - admonition
   - meta
   - def_list
