@@ -11,6 +11,9 @@ h1,h2,h3,h4,h5,h6,p {
 p,ul,li {
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+li {
+  margin-bottom: 0.25rem;
+}
 p {
   margin: 1rem 0;
 }
@@ -42,6 +45,7 @@ h3 {
 h4 {
   margin: 0.125rem 0 0 0;
   font-weight: normal;
+  font-style: italic;
 }
 .title {
   display: flex;
@@ -83,21 +87,6 @@ h4 {
   margin-right: 8px;
 }
 
-/* @media print {
-  h1,h2,h3,h4,h5,h6,p {
-    margin: 0;
-  }
-  body {
-    max-width: 650px;
-  }
-  .experience > ul {
-    margin: 0;
-    margin-top: 4px;
-  }
-  .meta {
-    margin-bottom: 0;
-  }
-} */
 
 @media print {
   html {
